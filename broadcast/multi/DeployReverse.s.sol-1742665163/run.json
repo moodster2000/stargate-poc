@@ -1,0 +1,69 @@
+{
+  "deployments": [
+    {
+      "transactions": [
+        {
+          "hash": null,
+          "transactionType": "CALL",
+          "contractName": null,
+          "contractAddress": "0x778cd2d813a9e5c28d8a08907e5c4e9f4dad384c",
+          "function": "setArbContract(address)",
+          "arguments": [
+            "0xd29Ba837039E2832AF6BF05A6Ce5A6d75FFE06a9"
+          ],
+          "transaction": {
+            "from": "0x8c0686723804a0b7201151852c94bd17dd043c21",
+            "to": "0x778cd2d813a9e5c28d8a08907e5c4e9f4dad384c",
+            "gas": "0x9ca2",
+            "value": "0x0",
+            "input": "0xdbd2e760000000000000000000000000d29ba837039e2832af6bf05a6ce5a6d75ffe06a9",
+            "nonce": "0xe",
+            "chainId": "0xaa36a7"
+          },
+          "additionalContracts": [],
+          "isFixedGasLimit": false
+        }
+      ],
+      "receipts": [],
+      "libraries": [],
+      "pending": [],
+      "returns": {},
+      "timestamp": 1742665161,
+      "chain": 11155111,
+      "commit": "76ce9e9"
+    },
+    {
+      "transactions": [
+        {
+          "hash": null,
+          "transactionType": "CALL",
+          "contractName": null,
+          "contractAddress": "0xd29ba837039e2832af6bf05a6ce5a6d75ffe06a9",
+          "function": "setEthereumContract(address)",
+          "arguments": [
+            "0x778cd2D813a9E5C28D8A08907e5c4E9f4dAd384c"
+          ],
+          "transaction": {
+            "from": "0x8c0686723804a0b7201151852c94bd17dd043c21",
+            "to": "0xd29ba837039e2832af6bf05a6ce5a6d75ffe06a9",
+            "gas": "0xec11",
+            "value": "0x0",
+            "input": "0x08042940000000000000000000000000778cd2d813a9e5c28d8a08907e5c4e9f4dad384c",
+            "nonce": "0x4c",
+            "chainId": "0x66eee"
+          },
+          "additionalContracts": [],
+          "isFixedGasLimit": false
+        }
+      ],
+      "receipts": [],
+      "libraries": [],
+      "pending": [],
+      "returns": {},
+      "timestamp": 1742665162,
+      "chain": 421614,
+      "commit": "76ce9e9"
+    }
+  ],
+  "timestamp": 1742665163
+}
